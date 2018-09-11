@@ -1,7 +1,19 @@
+html {
+	font-family: 'Merriweather', serif;
+}
 body {
-    border: 10px solid red;
+	margin: 0 0;
+	background-color: aliceblue;
 }
 
 .application {
-    background: green;
+	padding: 10px 30px;
+	display: flex;
+
+	flex-direction: column;
 }
+.container {
+	display: flex;
+	justify-content: space-evenly;
+}
+@import 'card.scss';
